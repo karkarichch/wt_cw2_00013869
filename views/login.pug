@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+    head
+        link(rel='stylesheet' href='/assets/css/styles.css')
+        title Login System
+    body 
+        .text-center
+            .container 
+                .title 
+                    h1 Login System 
+                    span.text Log in for the existing user 
+
+                    if error
+                        .error Oops! Fill the inputs 
+
+                    if emailErr 
+                        .error Email is not properly formatted 
+
+                    if passErr 
+                        .error Password should be at least 6 characters 
+                form#form(action="/login" method='POST')
+                    .form-group
+                        input.form-control(type="email", placeholder="email", name="email")
+                        p.form-text Register email address 
+                    .form-group 
+                        input.form-control(type="password", placeholder="password", name="password")
+                    button.btn.btn-success(href='/login' role='submit') Submit
+                    

@@ -1,0 +1,17 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  meta(http-equiv='X-UA-Compatible' content='ie=edge')
+  link(rel='stylesheet' href='/assets/css/styles.css')
+  title.text-center Notes App
+
+nav.navbar.navbar-dark.bg-dark
+  a.navbar-brand(href='/')
+    | <span role="img" aria-label="Memo">📝</span> Notes App 
+.container
+  .jumbotron.text-center
+    h1.display-4
+      | Note it down
+    h4.mt-4 This web application was created to fulfill Web Technology module's requirements and does not represent an actual company or service 
+    a.btn.btn-primary.btn-lg.mt-4(href='/notes' role='button') Write it
