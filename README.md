@@ -6,7 +6,7 @@ This app is created in order to help users create and delete the notes they want
 1. Download the source code
 
 ```bash
-git clone [https://github.com/karkarichch/NotesApp.git]
+git clone [https://github.com/karkarichch/wt_cw2_00013869.git]
 
 ```
 you can also simply download the .zip file
@@ -32,4 +32,4 @@ node app
 - deep-email-validator
 
 #### Link to GitHub repository
-[https://github.com/karkarichch/NotesApp.git]
+[https://github.com/karkarichch/wt_cw2_00013869.git]
